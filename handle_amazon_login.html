@@ -3,7 +3,7 @@
 <h2>Access Token</h1>
 <p id="access_token"></p>
 <script>
-    window.onAmazonLoginReady = function () {
+    window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
         const access_token = urlParams.get('access_token');
 
