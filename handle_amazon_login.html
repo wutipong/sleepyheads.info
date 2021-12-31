@@ -7,6 +7,6 @@
         const urlParams = new URLSearchParams(window.location.search);
         const access_token = urlParams.get('access_token');
 
-        document.getElementById("access_token").innerText(access_token);
+        document.getElementById("access_token").value = access_token;
     }
 </script>
